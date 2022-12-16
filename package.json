@@ -1,0 +1,27 @@
+{
+  "name": "secretsanta",
+  "version": "1.0.0",
+  "description": "Website to organize a Secret Santa gift exchange during the holidays",
+  "main": "secretSanta.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annemariepeek/SecretSanta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annemariepeek/SecretSanta/issues"
+  },
+  "homepage": "https://github.com/annemariepeek/SecretSanta#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "mongodb": "^4.12.1",
+    "nodemon": "^2.0.20"
+  }
+}

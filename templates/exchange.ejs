@@ -1,0 +1,33 @@
+<!-- DO NOT MODIFY THIS FILE -->
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Secret Santa generator</title>
+</head>
+
+<body>
+	<h1>Secret Santa generator</h1>
+    <form action="http://localhost:<%- portNumber %>/secretSanta" method="post">
+		
+        <div id="info">
+            Number of participants: <%- num_people %> <br><br><br>
+        </div>
+
+		<br>
+
+        <p>Enter the information of all the participants: <br><br>
+            <%- input_list %>
+        </p>
+		<input type="reset">
+		<input type="submit" value="Generate input table">
+
+        <hr>
+
+        <a href="/">HOME</a>
+	</form>
+
+</body>
+
+</html>

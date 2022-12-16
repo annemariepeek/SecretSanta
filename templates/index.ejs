@@ -1,0 +1,29 @@
+<!-- DO NOT MODIFY THIS FILE -->
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Secret Santa generator</title>
+</head>
+
+<body>
+	<h1>Secret Santa generator</h1>
+    <form action="http://localhost:<%- portNumber %>/exchange" method="post">
+		
+        <div id="info">
+            Number of participants: <input type="number" step="0.01" max="4.0" name="num_people"> <br><br><br>
+        </div>
+
+		<br>
+		<input type="reset">
+		<input type="submit" value="Generate input table">
+
+        <hr>
+
+        <a href="/">HOME</a>
+	</form>
+
+</body>
+
+</html>
